@@ -12,7 +12,7 @@ class AlgorithmTestCases(unittest.TestCase):
   def test_prime_number_one(self):
     result = prime_number(1)
     self.assertEqual(result, False, msg="Result is invalid")
-
+   
   def test_prime_number_two(self):
     result = prime_number(78)
     self.assertEqual(result, False, msg="Result is invalid")
