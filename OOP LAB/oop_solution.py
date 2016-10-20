@@ -13,7 +13,7 @@ class BankAccount(object):
         else:
            self.balance -= amount
 
-class MinimumBalanceAccount(BankAccount):
+class MinimumBalanceAccount(BankAccount):  
     def __init__(self, balance):
         BankAccount.__init__(self) 
    
