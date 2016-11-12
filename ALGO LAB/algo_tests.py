@@ -20,3 +20,4 @@ class AlgorithmTestCases(unittest.TestCase):
   def test_prime_number_three(self):
     result = prime_number(11)
     self.assertEqual(result, True, msg="Result is invalid")
+      
