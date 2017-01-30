@@ -8,4 +8,4 @@ def iterative_factorial(n):
     li = list(range(1, n + 1))
     for each in li:
         x = x * each
-    return x
+    return x       
